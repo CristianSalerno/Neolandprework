@@ -1,0 +1,258 @@
+header {
+  height: 15vh;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+}
+
+main {
+  height: 85vh;
+  flex-direction: column;
+}
+
+/* Navbar con flexbox dividido en 2 partes */
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+/* parte 1 del nav */
+.nav__brand {
+  width: 50%;
+  padding: 10px;
+  background:rgb(0, 0, 0);
+}
+
+.nav__brand-logo {
+  width: 100px;
+}
+/* parte 2 del nav */
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  background:rgb(0, 0, 0);
+  
+}
+.nav__list a{
+  font-family: roboto mono, monospace;
+  font-size:12px;
+} 
+
+.nav__list a:hover{
+  color:rgb(124, 124, 124);
+  text-shadow: 0 0 3px #000000 , 0 0 5px #000000;
+}
+
+
+/* section 1 de la pagina*/
+main .section1{
+  margin-top:0px;
+  height:100vh;
+}
+
+.section1 {
+  font-family: roboto mono, monospace;
+  color:black;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.section1{
+  width: 100%;
+  flex-direction: column;
+  margin-top: 20%; 
+}
+
+.section1 h1{
+  font-size: 100px;
+  font-family:roboto mono, monospace;
+}
+.section1 h1 a{
+  color:black;
+}
+
+.section1 h1 a:hover{
+  color:rgb(0, 0, 0);
+  text-shadow: 0 0 3px #000000 , 0 0 5px #000000;
+}
+
+
+
+main .section2{
+  margin-top:0px;
+  font-family: roboto mono, monospace;
+  background:rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#about{
+  font-family: roboto mono, monospace;
+}
+.section2 h2{
+  font-size: 70px;
+  padding:20px;
+  margin: auto;
+}
+.section2 #texto1{
+  width:50%;
+  font-size:20px;
+  padding:20px;
+  
+}
+.section2 .cpuimg {
+  width: 15%;
+  padding: 20px;
+}
+.section2 #texto2{
+  width:50%;
+  font-size:20px;
+  padding:20px;
+}
+.section2 .chilli{
+  padding: 20px;
+  width: 15%;
+}
+
+/* Section con imagenes de trabajos*/
+
+.section3 h2{
+  font-family: roboto mono,monospace;
+  font-size: 70px;
+  padding: 30px;
+}
+.container{
+  font-family: roboto mono,monospace;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Estilo Personas*/
+  .personas{
+      display:flex; 
+      text-align: center;
+      width: 100%;
+      height: 500px;
+      background:black;
+      color:white;
+    }
+  #personas_generico{
+    border-radius: 50%;
+    padding:1rem;
+    width:100px;
+  }
+  #nombre_personas{
+    color:white;
+    font-family: roboto mono,monospace;
+    font-size: 1rem;
+
+  }
+  .personas .cajapersona{
+      width :25%;
+      padding:1rem;
+  }
+  .tweet{
+    font-family: roboto mono,monospace;
+    font-size: 0.9rem;
+    padding:1rem;
+  }
+  .fa-twitter-square {
+    padding:0.5rem;
+  }
+  .lineas{
+    width: 3.5rem;
+    display: inline-block;
+    height: 1px;
+    background:black;
+    border: 0px;
+}
+.testimonial{
+  font-family: roboto mono,monospace;
+  font-size: 0.9rem;
+  padding:1rem;
+}
+
+.section5{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  padding:100px;
+  color:black;
+  font-family: roboto,cursive;
+  background:rgb(255, 255, 255);
+  
+}
+ .section5 h2{
+  padding:40px;
+  font-size: 70px;
+  font-family: roboto mono, monospace;
+}
+.section5 form{
+  padding: 40px;
+  font-family: roboto mono, monospace;  
+}
+.section5 input{ 
+  padding: 10px;
+  font-family: roboto mono,cursive;
+  font-size: 20px;
+  border-radius: 10px;
+  color:rgb(67, 67, 67);
+}
+#send{
+  font-family: roboto mono, cursive;
+  font-size: 15px;
+  border-radius: 5px;
+  width:80px;
+  height:30px;
+  border:black;
+  background:black;
+  color:white;
+}
+#send:hover{
+  cursor: pointer;
+  color:rgb(152, 152, 152);
+  text-shadow: 0 0 3px #000000 , 0 0 5px #000000;
+}
+
+#social{
+  background:rgb(0, 0, 0);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social img{
+  padding:20px;
+  width:40px; 
+}
+
+#social img:hover{
+  transition-delay:0.3ms;
+  width: 50px;
+}
+
+
+
